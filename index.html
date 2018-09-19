@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Todo List</title>
+
+	<!-- Roboto font embed -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="resources/css/reset.css">
+	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+	<link rel="stylesheet" href="resources/css/fontawesome.css">
+</head>
+<body>
+	
+	<header>
+		<div class="row">
+			<div class="col-md-11 col-sm-10">
+				<div class="form-group">
+					<input type="text" id="item" class="form-control" placeholder="Enter an activity...">
+				</div>
+			</div>
+			<div class="col-md-1 col-sm-2">
+				<div class="form-group">
+					<a id="submit" class="btn btn-outline-success" style="border-radius: 25px;">Submit</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="container" id="todo"></div>
+	</section>
+	<hr>
+	<section>
+		<div class="container" id="completed"></div>
+	</section>
+
+		<!-- JavaScripts -->
+		<script src="resources/js/main.js"></script>
+</body>
+</html>
